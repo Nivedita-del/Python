@@ -1,0 +1,161 @@
+1)
+num = int(input("Enter a number: "))
+if num > 1:
+    for i in range(2,num):
+         if (num % i) == 0:
+              print(num,"is not a prime number:)
+              print(i,"times",num//i,"is",num)
+              break
+         else:
+               print(num,"is a prime number")
+               break
+else:
+     print(num,"is not a prime number")
+
+
+2)
+from time import localtime
+activities = {8: 'Sleeping',
+9: 'Commuting',
+17: 'Working',
+18: 'Commuting',
+20: 'Eating',
+22: 'Resting' }
+time_now = localtime()
+hour = time_now.tm_hour
+for activity_time in sorted(activities.keys()):
+   if hour < activity_time:
+       print (activities[activity_time])
+       break
+   else:
+       print ('Unknown, AFK or sleeping!')
+       break
+output : Unknown, AFK or sleeping!
+
+3)
+class BankAccount(object):
+      def __init__(self, initial_balance=0):
+          self.balance = initial_balance
+      def deposit(self, amount):
+	  self.balance += amount
+      def withdraw(self, amount):
+	  self.balance -= amount
+      def overdrawn(self):
+	  return (self.balance < 0)
+
+my_account = BankAccount(15)
+my_account.withdraw(5)
+print (my_account.balance)
+
+Output: 10
+
+4)
+lower = 900
+upper = 1000
+for num in range(lower,upper + 1):
+    if num > 1:
+	for i in range(2,num):
+	     if ((num % i) == 0):
+		break
+	     else:
+		print(num)
+                break
+
+output: all the odd numbers between 900 to 1000
+
+5)
+lower=int(input("Enter lower range limit:"))
+upper=int(input("Enter upper range limit:"))
+n=int(input("Enter the number to be divided by:"))
+for i in range(lower,upper+1):
+     if(i%n==0):
+	print(i)
+     else:
+	continue //print didnt make sense
+
+output: 
+Enter lower range limit:10
+Enter upper range limit:20
+Enter the number to be divided by:3
+12
+15
+18
+
+6)
+n=int(input("Enter a number: "))
+for i in range(0,n):
+    for j in range(0,n):
+	if(i==j):
+	    print("1",sep=" ",end=" ")
+	else:
+	    print("0",sep=" ",end=" ")
+    print()
+
+output:
+Enter a number: 4
+1 0 0 0
+0 1 0 0
+0 0 1 0
+0 0 0 1
+
+7)
+import random
+guesses_made = 0
+name = input('Hello! What is your name?\n')
+print ('Well, {0}, I am thinking of a number between 1 and 20.'.format(name))
+while guesses_made < 6:
+        number = random.randint(1, 20)   // I put it here so that the number will be randomly chosen next time a guess is taken
+	guess = int(input('Take a guess: '))
+	guesses_made += 1
+	if guess < number:
+		print ('Your guess is too low.')
+	if guess > number:
+		print ('Your guess is too high.')
+	if guess == number:
+		print ('Good job, {0}! You guessed my number in {1}guesses!'.format(name, guesses_made))
+                break
+	else:
+		print ('Nope. The number I was thinking of was {0}'.format(number))
+                
+
+
+Output:
+Hello! What is your name?
+Nivedita
+Well, Nivedita, I am thinking of a number between 1 and 20.
+
+8)
+class Parent:
+	parentname = ""
+	chilbname = ""
+	def show_parent(self):
+		print(self.parentname)
+
+class Son(Parent):
+	def show_child(self):
+		print(self.childname)
+
+class Daughter(Parent):
+	def show_child(self):
+	     print(self.childname)
+s1 = Son()
+s1.parentname = "Mark"
+s1.childname = "John"
+s1.show_parent()
+s1.show_child()
+d1 = Son()
+d1.childname = "Riya"
+d1.parentname = "Samule"
+d1.show_parent()
+d1.show_child()
+
+Output:
+Mark
+John
+Samule
+Riya
+
+9)
+Output:
+Enter a number:371 //(3*3*3) = 27 (7*7*7)=343 (1*1*1)=1     27+343+1=371   therefore it's an armstrong num
+371 is an Armstrong number

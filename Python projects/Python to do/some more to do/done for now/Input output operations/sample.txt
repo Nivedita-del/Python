@@ -1,0 +1,143 @@
+ 1times2is 2
+ 2times2is 4
+ 3times2is 6
+ 4times2is 8
+ 5times2is 10
+ 6times2is 12
+ 7times2is 14
+ 8times2is 16
+ 9times2is 18
+10times2is 20
+11times2is 22
+12times2is 24
+--------------------
+ 1times3is 3
+ 2times3is 6
+ 3times3is 9
+ 4times3is 12
+ 5times3is 15
+ 6times3is 18
+ 7times3is 21
+ 8times3is 24
+ 9times3is 27
+10times3is 30
+11times3is 33
+12times3is 36
+--------------------
+ 1times4is 4
+ 2times4is 8
+ 3times4is 12
+ 4times4is 16
+ 5times4is 20
+ 6times4is 24
+ 7times4is 28
+ 8times4is 32
+ 9times4is 36
+10times4is 40
+11times4is 44
+12times4is 48
+--------------------
+ 1times5is 5
+ 2times5is 10
+ 3times5is 15
+ 4times5is 20
+ 5times5is 25
+ 6times5is 30
+ 7times5is 35
+ 8times5is 40
+ 9times5is 45
+10times5is 50
+11times5is 55
+12times5is 60
+--------------------
+ 1times6is 6
+ 2times6is 12
+ 3times6is 18
+ 4times6is 24
+ 5times6is 30
+ 6times6is 36
+ 7times6is 42
+ 8times6is 48
+ 9times6is 54
+10times6is 60
+11times6is 66
+12times6is 72
+--------------------
+ 1times7is 7
+ 2times7is 14
+ 3times7is 21
+ 4times7is 28
+ 5times7is 35
+ 6times7is 42
+ 7times7is 49
+ 8times7is 56
+ 9times7is 63
+10times7is 70
+11times7is 77
+12times7is 84
+--------------------
+ 1times8is 8
+ 2times8is 16
+ 3times8is 24
+ 4times8is 32
+ 5times8is 40
+ 6times8is 48
+ 7times8is 56
+ 8times8is 64
+ 9times8is 72
+10times8is 80
+11times8is 88
+12times8is 96
+--------------------
+ 1times9is 9
+ 2times9is 18
+ 3times9is 27
+ 4times9is 36
+ 5times9is 45
+ 6times9is 54
+ 7times9is 63
+ 8times9is 72
+ 9times9is 81
+10times9is 90
+11times9is 99
+12times9is 108
+--------------------
+ 1times10is 10
+ 2times10is 20
+ 3times10is 30
+ 4times10is 40
+ 5times10is 50
+ 6times10is 60
+ 7times10is 70
+ 8times10is 80
+ 9times10is 90
+10times10is 100
+11times10is 110
+12times10is 120
+--------------------
+ 1times11is 11
+ 2times11is 22
+ 3times11is 33
+ 4times11is 44
+ 5times11is 55
+ 6times11is 66
+ 7times11is 77
+ 8times11is 88
+ 9times11is 99
+10times11is 110
+11times11is 121
+12times11is 132
+--------------------
+ 1times12is 12
+ 2times12is 24
+ 3times12is 36
+ 4times12is 48
+ 5times12is 60
+ 6times12is 72
+ 7times12is 84
+ 8times12is 96
+ 9times12is 108
+10times12is 120
+11times12is 132
+12times12is 144
+--------------------
